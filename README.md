@@ -49,7 +49,7 @@ function currentAnswers(): string[]
 
 #### Bloky
 
-![Příklad hlasovače](https://github.com/SmutnyJan/pxt-voting-collector/blob/master/images/voterexample.png)
+![Příklad hlasovače](https://github.com/microbit-cz/pxt-voting-collector-extension/blob/master/images/voterexample.png)
 
 #### Kód
 
@@ -77,10 +77,12 @@ basic.forever(function () {
 })
 ```
 
+Demo  [https://github.com/microbit-cz/pxt-voting-voter-demo](https://github.com/microbit-cz/pxt-voting-voter-demo)
+
 ### Hlasování se zobrazením výsledků za pomocí metody z rozšíření
 
 #### Bloky
-![Jednoduchý příklad](https://github.com/SmutnyJan/pxt-voting-collector/blob/master/images/easyexample.png)
+![Jednoduchý příklad](https://github.com/microbit-cz/pxt-voting-collector-extension/blob/master/images/easyexample.png)
 
 #### Kód
 ```
@@ -96,10 +98,12 @@ input.onButtonPressed(Button.B, function () {
 radio.setGroup(1)
 ```
 
+Demo  [https://github.com/microbit-cz/pxt-voting-collector-demo-easy](https://github.com/microbit-cz/pxt-voting-collector-demo-easy)
+
 ### Hlasování se zobrazením výsledků za pomocí pole z rozšíření
 
 #### Bloky
-![Těžší příklad](https://github.com/SmutnyJan/pxt-voting-collector/blob/master/images/hardexample.png)
+![Těžší příklad](https://github.com/microbit-cz/pxt-voting-collector-extension/blob/master/images/hardexample.png)
 
 
 #### Kód
@@ -139,3 +143,4 @@ let pocetD = 0
 let odpovedi: string[] = []
 radio.setGroup(1)
 ```
+Demo  [https://github.com/microbit-cz/pxt-voting-collector-demo-hard](https://github.com/microbit-cz/pxt-voting-collector-demo-hard)
